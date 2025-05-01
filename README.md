@@ -33,7 +33,7 @@ Você pode gerar versos aleatórios, testar se reconhece de qual música vêm, e
 ## 🚀 Como rodar localmente
 
 ```bash
-git clone https://github.com/seuusuario/djavanear
+git clone https://github.com/hydraAngel/djavanear
 cd djavanear
 npm install
 npm run dev
