@@ -7,10 +7,12 @@ export default async function handler(req, res) {
     const files = await fs.readdir(letrasPath);
 
     if (!files.length) {
-      return res.status(500).json({ status: "error", message: "Nenhum arquivo encontrado." });
+      return res
+        .status(500)
+        .json({ status: "error", message: "Nenhum arquivo encontrado." });
     }
 
-    // 1. Escolhe um arquivo aleatório
+    // Escolhe um arquivo aleatório
     const index = Math.floor(Math.random() * files.length);
     const file = files[index];
     const filePath = path.join(letrasPath, file);
@@ -19,11 +21,18 @@ export default async function handler(req, res) {
     const dados = JSON.parse(conteudoJson);
     const { album, grupos_versos: grupos } = dados;
 
-    // 2. Seleciona versos aleatórios
+    if (!Array.isArray(grupos) || grupos.length === 0) {
+      return res
+        .status(500)
+        .json({ status: "error", message: "Arquivo sem grupos de versos." });
+    }
+
+    // Seleciona versos aleatórios
     let grupoAleatorio = grupos[Math.floor(Math.random() * grupos.length)];
 
     if (grupoAleatorio.length === 1) {
-      const outroGrupo = grupos[(Math.floor(Math.random() * grupos.length) + 1) % grupos.length];
+      const outroGrupo =
+        grupos[(Math.floor(Math.random() * grupos.length) + 1) % grupos.length];
       grupoAleatorio = [grupoAleatorio[0], outroGrupo[0]];
     }
 
@@ -31,10 +40,10 @@ export default async function handler(req, res) {
     const versoAleatorio = versosParaRetornar.join("; ");
     const letraSemAlbum = grupos.flat().join("\n");
 
-    // 3. Nome da música correta
+    // Nome da música correta
     const musicaCorreta = file.replace(".json", "");
 
-    // 4. Gera alternativas erradas da própria pasta
+    // Gera alternativas erradas
     const nomesDisponiveis = files
       .map((f) => f.replace(".json", ""))
       .filter((nome) => nome !== musicaCorreta);
@@ -45,17 +54,31 @@ export default async function handler(req, res) {
       alternativasErradas.push(nomesDisponiveis.splice(i, 1)[0]);
     }
 
-    const opcoes = [...alternativasErradas, musicaCorreta].sort(() => 0.5 - Math.random());
+    const opcoes = [...alternativasErradas, musicaCorreta].sort(
+      () => 0.5 - Math.random()
+    );
+
+    // Carrega test1.json para encontrar o número do álbum
+    const albunsDataPath = path.join(process.cwd(), "assets", "test1.json");
+    const albunsJson = await fs.readFile(albunsDataPath, "utf-8");
+    const albunsData = JSON.parse(albunsJson);
+    const albums = albunsData.letras?.reverse() || [];
+
+    const albumInfo = albums.find((item) => item.name === album);
+    const numAlbum = albumInfo?.num || 1;
 
     return res.status(200).json({
       status: "ok",
       musica: musicaCorreta,
-      verso: versoAleatorio,
       letra: letraSemAlbum,
+      verso: versoAleatorio,
+      num_album: numAlbum,
       opcoes,
     });
   } catch (error) {
     console.error("Erro em /api/generate:", error);
-    return res.status(500).json({ status: "error", message: "Erro interno no servidor." });
+    return res
+      .status(500)
+      .json({ status: "error", message: "Erro interno no servidor." });
   }
 }

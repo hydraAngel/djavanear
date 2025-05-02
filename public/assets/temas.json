@@ -1,0 +1,254 @@
+{
+  "1": {
+    "--color-bg": "#3b3226",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#010100",
+    "--color-link": "#292928",
+    "--color-shadow": "#090000",
+    "--color-overlay": "rgba(59, 50, 38, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "2": {
+    "--color-bg": "#f5d08f",
+    "--color-text-title": "#1e1e1e",
+    "--color-verse": "#dd913f",
+    "--color-link": "#ffb967",
+    "--color-shadow": "#c39e5d",
+    "--color-overlay": "rgba(245, 208, 143, 0.7)",
+    "--color-text-by": "#1e1e1e55"
+  },
+  "3": {
+    "--color-bg": "#111216",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#46484c",
+    "--color-link": "#6e7074",
+    "--color-shadow": "#000000",
+    "--color-overlay": "rgba(17, 18, 22, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "4": {
+    "--color-bg": "#ede1bc",
+    "--color-text-title": "#1e1e1e",
+    "--color-verse": "#81543c",
+    "--color-link": "#a97c64",
+    "--color-shadow": "#bbaf8a",
+    "--color-overlay": "rgba(237, 225, 188, 0.7)",
+    "--color-text-by": "#1e1e1e55"
+  },
+  "5": {
+    "--color-bg": "#bc886c",
+    "--color-text-title": "#1e1e1e",
+    "--color-verse": "#7b574a",
+    "--color-link": "#a37f72",
+    "--color-shadow": "#8a563a",
+    "--color-overlay": "rgba(188, 136, 108, 0.7)",
+    "--color-text-by": "#1e1e1e55"
+  },
+  "6": {
+    "--color-bg": "#e9a78f",
+    "--color-text-title": "#1e1e1e",
+    "--color-verse": "#bc7246",
+    "--color-link": "#e49a6e",
+    "--color-shadow": "#b7755d",
+    "--color-overlay": "rgba(233, 167, 143, 0.7)",
+    "--color-text-by": "#1e1e1e55"
+  },
+  "7": {
+    "--color-bg": "#322a22",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#e0cfb2",
+    "--color-link": "#fff7da",
+    "--color-shadow": "#000000",
+    "--color-overlay": "rgba(50, 42, 34, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "8": {
+    "--color-bg": "#d0d1cc",
+    "--color-text-title": "#1e1e1e",
+    "--color-verse": "#ada89d",
+    "--color-link": "#d5d0c5",
+    "--color-shadow": "#9e9f9a",
+    "--color-overlay": "rgba(208, 209, 204, 0.7)",
+    "--color-text-by": "#1e1e1e55"
+  },
+  "9": {
+    "--color-bg": "#8998c0",
+    "--color-text-title": "#1e1e1e",
+    "--color-verse": "#a77649",
+    "--color-link": "#cf9e71",
+    "--color-shadow": "#57668e",
+    "--color-overlay": "rgba(137, 152, 192, 0.7)",
+    "--color-text-by": "#1e1e1e55"
+  },
+  "10": {
+    "--color-bg": "#7f7f7d",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#2d2d2d",
+    "--color-link": "#555555",
+    "--color-shadow": "#4d4d4b",
+    "--color-overlay": "rgba(127, 127, 125, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "11": {
+    "--color-bg": "#bb9273",
+    "--color-text-title": "#1e1e1e",
+    "--color-verse": "#d9d6ba",
+    "--color-link": "#fffee2",
+    "--color-shadow": "#896041",
+    "--color-overlay": "rgba(187, 146, 115, 0.7)",
+    "--color-text-by": "#1e1e1e55"
+  },
+  "12": {
+    "--color-bg": "#221710",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#e5772f",
+    "--color-link": "#ff9f57",
+    "--color-shadow": "#000000",
+    "--color-overlay": "rgba(34, 23, 16, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "13": {
+    "--color-bg": "#0d130f",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#b6bca8",
+    "--color-link": "#dee4d0",
+    "--color-shadow": "#000000",
+    "--color-overlay": "rgba(13, 19, 15, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "14": {
+    "--color-bg": "#2b392f",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#64856e",
+    "--color-link": "#8cad96",
+    "--color-shadow": "#000700",
+    "--color-overlay": "rgba(43, 57, 47, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "15": {
+    "--color-bg": "#2b392f",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#64856e",
+    "--color-link": "#8cad96",
+    "--color-shadow": "#000700",
+    "--color-overlay": "rgba(43, 57, 47, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "16": {
+    "--color-bg": "#8a8888",
+    "--color-text-title": "#1e1e1e",
+    "--color-verse": "#0c0b0b",
+    "--color-link": "#343333",
+    "--color-shadow": "#585656",
+    "--color-overlay": "rgba(138, 136, 136, 0.7)",
+    "--color-text-by": "#1e1e1e55"
+  },
+  "17": {
+    "--color-bg": "#999999",
+    "--color-text-title": "#1e1e1e",
+    "--color-verse": "#313131",
+    "--color-link": "#595959",
+    "--color-shadow": "#676767",
+    "--color-overlay": "rgba(153, 153, 153, 0.7)",
+    "--color-text-by": "#1e1e1e55"
+  },
+  "18": {
+    "--color-bg": "#120205",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#a3166c",
+    "--color-link": "#cb3e94",
+    "--color-shadow": "#000000",
+    "--color-overlay": "rgba(18, 2, 5, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "19": {
+    "--color-bg": "#4f3c8d",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#cc3389",
+    "--color-link": "#f45bb1",
+    "--color-shadow": "#1d0a5b",
+    "--color-overlay": "rgba(79, 60, 141, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "20": {
+    "--color-bg": "#2d2624",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#645b57",
+    "--color-link": "#8c837f",
+    "--color-shadow": "#000000",
+    "--color-overlay": "rgba(45, 38, 36, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "21": {
+    "--color-bg": "#4f4853",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#a47e6a",
+    "--color-link": "#cca692",
+    "--color-shadow": "#1d1621",
+    "--color-overlay": "rgba(79, 72, 83, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "22": {
+    "--color-bg": "#ddecd8",
+    "--color-text-title": "#1e1e1e",
+    "--color-verse": "#7d768a",
+    "--color-link": "#a59eb2",
+    "--color-shadow": "#abbaa6",
+    "--color-overlay": "rgba(221, 236, 216, 0.7)",
+    "--color-text-by": "#1e1e1e55"
+  },
+  "23": {
+    "--color-bg": "#171317",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#cb8350",
+    "--color-link": "#f3ab78",
+    "--color-shadow": "#000000",
+    "--color-overlay": "rgba(23, 19, 23, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "24": {
+    "--color-bg": "#2c292a",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#676769",
+    "--color-link": "#8f8f91",
+    "--color-shadow": "#000000",
+    "--color-overlay": "rgba(44, 41, 42, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "25": {
+    "--color-bg": "#e7c9cd",
+    "--color-text-title": "#1e1e1e",
+    "--color-verse": "#cca8ad",
+    "--color-link": "#f4d0d5",
+    "--color-shadow": "#b5979b",
+    "--color-overlay": "rgba(231, 201, 205, 0.7)",
+    "--color-text-by": "#1e1e1e55"
+  },
+  "26": {
+    "--color-bg": "#22262a",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#4d575e",
+    "--color-link": "#757f86",
+    "--color-shadow": "#000000",
+    "--color-overlay": "rgba(34, 38, 42, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "27": {
+    "--color-bg": "#0a0101",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#620a0a",
+    "--color-link": "#8a3232",
+    "--color-shadow": "#000000",
+    "--color-overlay": "rgba(10, 1, 1, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  },
+  "28": {
+    "--color-bg": "#641847",
+    "--color-text-title": "#f0f0f0",
+    "--color-verse": "#fdeef0",
+    "--color-link": "#ffffff",
+    "--color-shadow": "#320015",
+    "--color-overlay": "rgba(100, 24, 71, 0.7)",
+    "--color-text-by": "#f0f0f055"
+  }
+}
